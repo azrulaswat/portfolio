@@ -1,0 +1,84 @@
+{
+  "documents": [
+    {
+      "id": "pak1",
+      "company": "PT Teknologi Listrik Indonesia",
+      "companyAddress": "Jl. Sudirman No. 123, Jakarta 12930",
+      "position": "Electrical Engineer",
+      "employeeId": "TLI-2022-001",
+      "startDate": "2022-01-15",
+      "endDate": "present",
+      "current": true,
+      "year": "2024",
+      "issueDate": "2024-01-15",
+      "referenceNumber": "SKK/TLI/001/2024",
+      "signedBy": {
+        "name": "Ir. Bambang Suryanto, M.T.",
+        "position": "General Manager",
+        "company": "PT Teknologi Listrik Indonesia"
+      },
+      "content": {
+        "opening": "Yang bertanda tangan di bawah ini, kami dari PT Teknologi Listrik Indonesia dengan ini menerangkan bahwa:",
+        "employeeDetails": {
+          "name": "Azrul Aswat",
+          "idNumber": "3171234567890123",
+          "position": "Electrical Engineer",
+          "department": "Engineering Department"
+        },
+        "statement": "Adalah benar karyawan kami yang masih aktif bekerja di PT Teknologi Listrik Indonesia terhitung sejak tanggal 15 Januari 2022 sampai dengan sekarang.",
+        "responsibilities": [
+          "Merancang dan mengimplementasikan sistem kelistrikan untuk proyek otomasi industri",
+          "Memimpin tim yang terdiri dari 5 orang engineer dalam pengembangan solusi smart grid",
+          "Melakukan analisis kebutuhan daya dan perancangan sistem distribusi listrik",
+          "Mengawasi instalasi dan commissioning sistem kelistrikan",
+          "Membuat dokumentasi teknis dan laporan proyek"
+        ],
+        "performance": "Selama bekerja di perusahaan kami, yang bersangkutan menunjukkan kinerja yang sangat baik, dedikasi tinggi, dan profesionalisme dalam menjalankan tugasnya. Yang bersangkutan juga memiliki kemampuan leadership yang baik dalam memimpin tim.",
+        "closing": "Surat keterangan ini dibuat dengan sebenarnya untuk dapat dipergunakan sebagaimana mestinya.",
+        "additionalNotes": "Untuk informasi lebih lanjut dapat menghubungi HRD PT Teknologi Listrik Indonesia di nomor (021) 1234-5678"
+      },
+      "companyStamp": true,
+      "verified": true
+    },
+    {
+      "id": "pak2",
+      "company": "PT Energi Terbarukan",
+      "companyAddress": "Jl. Gatot Subroto Kav. 45, Jakarta 12950",
+      "position": "Junior Electrical Engineer",
+      "employeeId": "ET-2020-055",
+      "startDate": "2020-03-01",
+      "endDate": "2021-12-31",
+      "current": false,
+      "year": "2022",
+      "issueDate": "2022-01-10",
+      "referenceNumber": "PKL/ET/055/2022",
+      "signedBy": {
+        "name": "Dr. Ir. Siti Rahayu, M.Eng.",
+        "position": "HR Manager",
+        "company": "PT Energi Terbarukan"
+      },
+      "content": {
+        "opening": "Yang bertanda tangan di bawah ini, kami dari PT Energi Terbarukan dengan ini menerangkan bahwa:",
+        "employeeDetails": {
+          "name": "Azrul Aswat",
+          "idNumber": "3171234567890123",
+          "position": "Junior Electrical Engineer",
+          "department": "Renewable Energy Division"
+        },
+        "statement": "Adalah benar telah bekerja di PT Energi Terbarukan pada periode 1 Maret 2020 sampai dengan 31 Desember 2021.",
+        "responsibilities": [
+          "Melaksanakan instalasi sistem panel surya untuk proyek-proyek skala komersial dan residensial",
+          "Melakukan perhitungan kebutuhan energi dan desain sistem fotovoltaik",
+          "Mengawasi pemasangan dan testing sistem pembangkit listrik tenaga surya",
+          "Melakukan maintenance rutin dan troubleshooting sistem renewable energy",
+          "Membuat laporan teknis dan dokumentasi proyek"
+        ],
+        "performance": "Selama bekerja di perusahaan kami, yang bersangkutan menunjukkan kinerja yang memuaskan, memiliki inisiatif yang baik, dan mampu bekerja sama dalam tim. Yang bersangkutan juga menunjukkan kemampuan teknis yang solid dalam bidang renewable energy systems.",
+        "closing": "Demikian surat keterangan ini dibuat dengan sebenarnya dan dapat dipergunakan sebagaimana mestinya. Kami melepas yang bersangkutan dengan baik.",
+        "additionalNotes": "Hubungi kami di hr@energiterbarukan.co.id untuk verifikasi."
+      },
+      "companyStamp": true,
+      "verified": true
+    }
+  ]
+}

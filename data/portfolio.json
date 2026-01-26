@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Smart Home Automation System",
+      "year": "2024",
+      "category": "IoT",
+      "description": "Developed comprehensive IoT-based home automation system using ESP32 and MQTT protocol. The system features remote lighting control, temperature monitoring, energy consumption tracking, and security integration via mobile application.",
+      "technologies": ["ESP32", "MQTT", "Arduino", "Node.js", "React Native", "Firebase"],
+      "features": [
+        "Remote control via mobile app",
+        "Real-time energy monitoring",
+        "Voice control integration (Google Assistant)",
+        "Automated scheduling",
+        "Security camera integration"
+      ],
+      "outcomes": [
+        "Reduced household energy consumption by 30%",
+        "Improved home security with automated alerts",
+        "User satisfaction rating: 4.8/5.0"
+      ],
+      "link": "https://github.com/azrulaswat/smart-home",
+      "image": "smart-home.jpg",
+      "featured": true
+    },
+    {
+      "id": "proj2",
+      "title": "Solar Power Monitoring Dashboard",
+      "year": "2024",
+      "category": "Renewable Energy",
+      "description": "Created real-time monitoring dashboard for solar panel installations. System tracks power generation, efficiency metrics, weather conditions, and provides predictive maintenance alerts using machine learning algorithms.",
+      "technologies": ["Python", "Django", "PostgreSQL", "Chart.js", "Raspberry Pi", "TensorFlow"],
+      "features": [
+        "Real-time power generation tracking",
+        "Weather-based performance prediction",
+        "Maintenance scheduling automation",
+        "Historical data analysis",
+        "Mobile-responsive dashboard"
+      ],
+      "outcomes": [
+        "Increased solar efficiency by 15% through optimization",
+        "Reduced maintenance costs by 40%",
+        "Prevented 5+ major system failures through predictive alerts"
+      ],
+      "link": "https://github.com/azrulaswat/solar-monitor",
+      "image": "solar-dashboard.jpg",
+      "featured": true
+    },
+    {
+      "id": "proj3",
+      "title": "Industrial PLC Control System",
+      "year": "2023",
+      "category": "Automation",
+      "description": "Designed and programmed PLC control system for manufacturing conveyor belt automation. Implemented advanced logic for material handling, quality control integration, and emergency stop procedures.",
+      "technologies": ["Siemens TIA Portal", "SCADA", "Ladder Logic", "HMI Design", "Profinet"],
+      "features": [
+        "Automated material sorting",
+        "Speed control based on load",
+        "Quality inspection integration",
+        "Real-time production monitoring",
+        "Emergency safety protocols"
+      ],
+      "outcomes": [
+        "Reduced production downtime by 40%",
+        "Increased throughput by 25%",
+        "Zero safety incidents since implementation"
+      ],
+      "link": "",
+      "image": "plc-system.jpg",
+      "featured": false
+    },
+    {
+      "id": "proj4",
+      "title": "Power Quality Analyzer",
+      "year": "2023",
+      "category": "Power Systems",
+      "description": "Built custom power quality monitoring device using Arduino and current sensors. Device detects voltage sags, swells, harmonics, and power factor issues in electrical distribution systems with data logging capabilities.",
+      "technologies": ["Arduino", "C++", "Signal Processing", "LabVIEW", "MATLAB"],
+      "features": [
+        "Voltage sag/swell detection",
+        "Harmonic analysis (THD calculation)",
+        "Power factor monitoring",
+        "Data logging with timestamp",
+        "Alert system for anomalies"
+      ],
+      "outcomes": [
+        "Identified and resolved 10+ power quality issues",
+        "Cost savings of $50,000 in prevented equipment damage",
+        "Improved power factor from 0.75 to 0.95"
+      ],
+      "link": "https://github.com/azrulaswat/power-analyzer",
+      "image": "power-analyzer.jpg",
+      "featured": false
+    },
+    {
+      "id": "proj5",
+      "title": "EV Charging Station Design",
+      "year": "2024",
+      "category": "Electric Vehicles",
+      "description": "Designed complete electrical infrastructure and charging management system for electric vehicle charging station. Project includes load calculation, safety systems, payment integration, and user interface design.",
+      "technologies": ["AutoCAD Electrical", "ETAP", "IoT", "Payment Gateway API", "React"],
+      "features": [
+        "Multi-vehicle charging capability (6 ports)",
+        "Dynamic load management",
+        "RFID-based user authentication",
+        "Mobile payment integration",
+        "Remote monitoring dashboard"
+      ],
+      "outcomes": [
+        "Successfully deployed at 3 locations",
+        "Average utilization rate: 78%",
+        "Processing 200+ charging sessions per week"
+      ],
+      "link": "",
+      "image": "ev-station.jpg",
+      "featured": true,
+      "status": "In Progress"
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 
   /* Theme toggle, email copy, PDF download */
   function ui() {
+    var sv = document.querySelector(".scope svg");
+    if (sv && sv.pauseAnimations && window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) sv.pauseAnimations();
     var root = document.documentElement, btn = document.getElementById("tgl");
     try { var saved = localStorage.getItem("theme"); if (saved) root.setAttribute("data-theme", saved); } catch (e) {}
 

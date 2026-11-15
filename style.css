@@ -35,8 +35,15 @@ h1{font:800 clamp(3rem,9.5vw,7rem)/.92 var(--disp);font-stretch:112%;letter-spac
 .shot img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:999px 999px 1.2rem 1.2rem;position:relative;z-index:1}
 .shot::after{content:"";position:absolute;inset:1rem -1rem -1rem 1rem;border:2px solid var(--gold-fill);border-radius:999px 999px 1.2rem 1.2rem}
 .scope{margin:1rem 0 0;background:var(--surface);border:1px solid var(--line);border-radius:1rem;position:relative;overflow:hidden}
-.scope b{position:absolute;left:3.6rem;top:.7rem;font-size:.85rem;font-weight:600;color:var(--muted)}
-canvas{display:block;width:100%;height:clamp(150px,20vw,230px)}
+.scope b{position:absolute;left:3.8rem;z-index:1;top:.7rem;font-size:.85rem;font-weight:600;color:var(--muted)}
+.scope svg{display:block;width:100%;height:clamp(150px,20vw,230px)}
+.scope .g line{stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
+.scope .ml{position:absolute;left:.7rem;z-index:1;transform:translateY(-50%);font-size:.78rem;font-weight:600;color:var(--muted)}
+.w1,.w2{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.w1{stroke:var(--accent);stroke-width:3;animation:w1 5s linear infinite}
+.w2{stroke:var(--gold-fill);stroke-width:2;opacity:.7;animation:w2 9s linear infinite}
+@keyframes w1{to{transform:translateX(-400px)}}
+@keyframes w2{to{transform:translateX(-600px)}}
 .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:2rem 0 0;padding:0;list-style:none}
 @media (max-width:760px){.facts{grid-template-columns:repeat(2,1fr)}}
 .facts li{border-top:3px solid var(--gold-fill);padding-top:.6rem}
